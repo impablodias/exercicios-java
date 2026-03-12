@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
 public class OperacoesMatematicas {
-    public static void main {
+
+    public static void main(String[] args) {
         Scanner leitor = new Scanner (System.in);
 
-        Sytem.out.print ("Digite o primeiro número: ");
+        System.out.print ("Digite o primeiro número: ");
         double num1 = leitor.nextDouble();
 
         System.out.print ("Digite o segundo número: ");
