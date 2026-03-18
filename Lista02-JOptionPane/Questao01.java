@@ -9,17 +9,10 @@ public class Questao01 {
         double num2 = Double.parseDouble(input2);
 
         double soma = num1 + num2;
-        double subtracao = num1 - num2;
-        double multiplicacao = num1 * num2;
-        double divisao = num1 / num2;
 
-        String mensagem = "Resultados das operações:\n" +
-                            "Soma: " + soma + "\n" +
-                            "Subtração: " + subtracao + "\n" +
-                            "Multiplicação: " + multiplicacao + "\n" +
-                            "Divisão: " + divisao + "\n";
+        String mensagem = "A soma dos números é:\n" + soma;
 
-        JOptionPane.showMessageDialog(null, mensagem);
+        JOptionPane.showMessageDialog(null,mensagem);
 
     }
 }
