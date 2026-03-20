@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Questao07 {
+public class Questao09 {
     public static void main(String[] args) {
         String entrada = JOptionPane.showInputDialog("Digite o valor do depósito (R$):");
         double valorDepositado = Double.parseDouble(entrada);
